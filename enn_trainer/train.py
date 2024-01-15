@@ -506,7 +506,6 @@ def train(
                             newvalue = value_function.get_auxiliary_head(
                                 b_entities, b_visible, "value", tracer=tracer
                             )
-
                     pg_loss, clipfrac, approx_kl = ppo_loss(
                         cfg.ppo, newlogprob, b_logprobs, mb_advantages, device, tracer
                     )

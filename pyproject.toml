@@ -17,7 +17,7 @@ optuna = "^2.10.0"
 moviepy = "^1.0.3"
 click = "^8.0.4"
 hyperstate = "^0.4.3"
-entity-gym = "^0.1.10"
+entity-gym = { path = "../entity-gym" }
 rogue-net = "^0.1.9"
 
 [tool.poetry.dev-dependencies]
